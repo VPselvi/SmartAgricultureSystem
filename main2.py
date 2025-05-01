@@ -125,16 +125,16 @@ st.markdown("<h1 class='header'>🌾 Smart Farming Dashboard</h1>", unsafe_allow
 st.markdown("### 🌱 Optimize Your Farming with AI-Powered Insights")
 
 # Load trained models
-crop_model = joblib.load("/Users/riyaz/Downloads/FINAL YEAR PROJECT/crop_model.pkl")
-yield_model = joblib.load("/Users/riyaz/Downloads/FINAL YEAR PROJECT/yield_model.pkl")
-price_model = joblib.load("/Users/riyaz/Downloads/FINAL YEAR PROJECT/price_model.pkl")
+crop_model = joblib.load("crop_model.pkl")
+yield_model = joblib.load("yield_model.pkl")
+price_model = joblib.load("price_model.pkl")
 
 # Load preprocessing encoders & scalers
-district_encoder = joblib.load("/Users/riyaz/Downloads/FINAL YEAR PROJECT/district_encoder.pkl")
-crop_encoder = joblib.load("/Users/riyaz/Downloads/FINAL YEAR PROJECT/crop_encoder.pkl")
-scaler_crop = joblib.load("/Users/riyaz/Downloads/FINAL YEAR PROJECT/scaler_crop.pkl")
-scaler_yield = joblib.load("/Users/riyaz/Downloads/FINAL YEAR PROJECT/scaler_yield.pkl")
-scaler_price = joblib.load("/Users/riyaz/Downloads/FINAL YEAR PROJECT/scaler_price.pkl")
+district_encoder = joblib.load("district_encoder.pkl")
+crop_encoder = joblib.load("crop_encoder.pkl")
+scaler_crop = joblib.load("scaler_crop.pkl")
+scaler_yield = joblib.load("scaler_yield.pkl")
+scaler_price = joblib.load("scaler_price.pkl")
 
 # Database connection function (SQLite)
 def connect_db():
