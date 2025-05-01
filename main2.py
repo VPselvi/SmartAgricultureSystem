@@ -30,7 +30,7 @@ def load_lottieurl(url):
     return requests.get(url).json()
 
 # --- Background Image (Optional) ---
-base64_img = get_base64("/Users/riyaz/Downloads/FINAL YEAR PROJECT/smart farming2.jpeg")
+base64_img = get_base64("smart farming2.jpeg")
 st.markdown(f"""
 <style>
 [data-testid="stAppViewContainer"] {{
