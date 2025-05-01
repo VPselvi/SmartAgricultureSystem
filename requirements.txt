@@ -7,3 +7,5 @@ requests
 xgboost
 streamlit-lottie
 feedparser
+matplotlib
+seaborn
