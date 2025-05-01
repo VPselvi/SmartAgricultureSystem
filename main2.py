@@ -52,7 +52,7 @@ body {
 """, unsafe_allow_html=True)
 
 # --- Sidebar / Navigation ---
-page = st.sidebar.selectbox("Navigate", ["Home", "Dashboard", "About","Agriculture News"])
+page = st.sidebar.selectbox("Navigate", ["Home", "Dashboard", "About"])
 
 # --- Page Logic ---
 if page == "Home":
